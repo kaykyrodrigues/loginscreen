@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="grid">
+        <section id="sideA">
+            <header>
+                <h1>Faça o seu login...</h1>
+                <h2>Junte-se ao time!</h2>
+            </header>
+            <img src="imagens/icone.png" alt="Um homem sentado em frente a um computador, realizando o login em uma página">
+        </section>
+        <section id="sideB">
+            <article>
+                <h3>LOGIN</h3>
+                <p>Usuário:</p>
+                <input type="text" name="iuser" id="iuser" placeholder="Nome do Usuário">
+                <p>Senha:</p>
+                <input type="password" name="ipass" id="ipass" placeholder="Senha">
+                <button onclick="Login()">L O G I N</button>
+                <p id="esqSenha" onclick="esqueceuSenha()">Esqueceu a senha?</p>
+            </article>
+            <p id="regCadastro" onclick="cadastro()">Registre-se aqui!</p>
+        </section>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
