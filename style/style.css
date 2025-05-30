@@ -128,4 +128,12 @@ article {
         transition: 0.5s;
         cursor: pointer;
     }
+
+    & #alertarUser {
+        color: rgb(255, 255, 11);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.75em;
+        margin-bottom: 0px;
+        margin-left: 90px;
+    }
 }
