@@ -3,8 +3,6 @@ function Login() {
     let pass = document.getElementById('ipass').value
     let article = document.getElementById('areaLogin')
 
-
-
     if (user, pass == null || user,pass.trim() === '') {
         let loginInvalido = `<h3>LOGIN</h3>
                 <p>Usuário:</p>
