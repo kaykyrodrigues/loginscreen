@@ -31,23 +31,6 @@ img {
     width: 700px;
 }
 
-section#sideB {
-
-    & #regCadastro {
-        color: #b8bff6;
-        padding: 10px;
-        font-size: 1em;
-        margin-top: 10px;
-        margin-left: 340px;
-    }
-
-    & #regCadastro:hover {
-        color: #b8bff6e2;
-        text-decoration: underline;
-        cursor: pointer;
-    }
-}
-
 article {
 
     margin-top: 70px;
@@ -136,4 +119,18 @@ article {
         margin-bottom: -20px;
         margin-left: 100px;
     }
+}
+
+& #regCadastro {
+    color: #b8bff6;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
+& #regCadastro:hover {
+    color: #b8bff6e2;
+    text-decoration: underline;
+    cursor: pointer;
 }

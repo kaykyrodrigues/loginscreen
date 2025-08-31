@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media (max-width: 760px) {
+    body {
+        background-image: linear-gradient(#313ef5, #11164c);
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    div#grid {
+        margin: 0px;
+        display: block;
+    }
+
+    header {
+        display: block;
+        height: 10px;
+        color: #b8bff6;
+        margin-top: 20px;
+
+        & h1,
+        h2 {
+
+            font-size: 1em;
+            font-weight: bolder;
+            text-align: center;
+        }
+    }
+
+    img {
+        margin: auto;
+        width: 0px;
+    }
+
+    article {
+        margin: 10px 50px 10px 150px;
+        width: 200px;
+        
+        & h3 {
+            text-align: center;
+        }
+
+        & p {
+            margin-left: 6px;
+            text-align: center;
+        }
+
+        & input::placeholder {
+            color: #323ff098;
+            padding: 10px;
+        }
+
+        & button {
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+
+        & #esqSenha {
+            margin-left: 0px;
+        }
+
+        #regCadastro {
+            font-weight: lighter;
+            margin-top: -17px;
+            margin-left: 0px;  
+        }
+
+        & #alertarLogin {
+            margin-left: 5px;
+        }
+    }
+
+
+
+}
