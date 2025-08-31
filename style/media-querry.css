@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     body {
-        background-image: linear-gradient(#313ef5, #11164c);
         height: 100vh;
         width: 100vw;
         overflow-x: hidden;
@@ -17,7 +16,6 @@
     header {
         display: block;
         height: 10px;
-        color: #b8bff6;
         margin-top: 30px;
 
         & h1,
@@ -38,7 +36,7 @@
         margin: auto;
         align-items: center;
         width: 300px;
-        
+
         & h3 {
             text-align: center;
         }
@@ -54,7 +52,7 @@
         }
 
         & button {
-           margin: 10px 50px 10px 65px;
+            margin: 20px 50px 10px 65px;
         }
 
         & #esqSenha {
@@ -64,14 +62,76 @@
         #regCadastro {
             font-weight: lighter;
             margin-top: -17px;
-            margin-left: 0px;  
+            margin-left: 0px;
         }
 
         & #alertarLogin {
             margin-left: 5px;
         }
     }
+}
+
+@media (min-width: 781px) and (max-width: 1300px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    header {
+        display: block;
+        height: 30px;
+        margin-top: 30px;
+
+        & h1,
+        h2 {
+
+            font-size: 1.2em;
+            font-weight: bolder;
+            text-align: center;
+        }
+    }
 
 
+
+    #sideA {
+        height: 100vh;
+        width: 50vw;
+
+        & img {
+            margin: 0;
+            width: 550px;
+        }
+    }
+
+    #sideB {
+        height: 100vh;
+        width: 60vw;
+    }
+
+    article {
+        margin: 90px 0 0 100px;
+        width: 300px;
+
+
+        & button {
+            margin: 20px 50px 10px 65px;
+        }
+
+        & #esqSenha {
+            margin-left: 0px;
+        }
+
+        #regCadastro {
+            font-weight: lighter;
+            margin-top: -17px;
+            margin-left: 0px;
+        }
+
+        & #alertarLogin {
+            margin-left: 5px;
+        }
+    }
 
 }
